@@ -128,7 +128,7 @@ void printlist(Node* head)
 	Node *p=head;
 	while(p)
 	{
-		cout<<p->data<<" ";
+		cout<<p->data<<"  ";
 		p=p->next;
 	}
 	cout<<endl;
